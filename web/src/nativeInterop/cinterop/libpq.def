@@ -1,0 +1,5 @@
+headers = {project-dir}/headers/libpq-fe.h
+headerFilter = {project-dir}/headers/*
+staticLibraries = libpq.a
+libraryPaths = {project-dir}/libs
+linkerOpts = -l{project-dir}/libs/libldap-2.4.so.2 -l{project-dir}/libs/libgssapi_krb5.so.2 -l{project-dir}/libs/libssl.so.1.1 -l{project-dir}/libs/libcrypto.so.1.1
